@@ -1,0 +1,138 @@
+.nav-logo{ 
+    width: 200px ;
+    height: 57.93px;
+    cursor: pointer;
+}
+.container-fluid{
+    margin-inline: 4%;
+    /* background-color:#4b8864; */
+}
+.sticky-top{
+    box-shadow: 1px 3px 25px rgba(70, 65, 92, 0.774);
+}
+/* navigation hover animation */
+.nav-link{
+    margin: 0 2ch 0;
+    position: relative;  
+    font-family: 'Cooper Black';
+    font-size: large;
+}
+.nav-link::after{
+    content:"";
+    position: absolute;
+    left: 0; bottom: 0; width: 100%; height: 3px;
+    background: orange;
+
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: 750ms;
+}
+.nav-link:hover::after{
+    transform: scaleX(1);  
+}
+
+/* headings */
+.heading{
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    text-decoration: underline orange;
+    font-family: 'Lucida Sans';
+}
+
+/* cards */
+.card-title{
+    font-family: Lucida Sans;
+}
+.card-text{
+    font-style: italic;
+}
+/* cards hover effect */
+.card{
+    transition: .5s;
+    transform: translateY(0px);
+    border-radius: 2%;
+}
+.card:hover{
+    box-shadow: 4px 4px 25px 6px rgba(70, 65, 92, 0.774);
+    cursor: pointer;
+    transform:translateY(4px);
+}
+.card-img-top{
+
+}
+
+/* border of logo in card-1 */
+.icons{
+    outline: auto orange;
+    color: orange;
+    width: 55px;
+    height: 55px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 5%;
+}
+
+.banner{
+    background-color:#365ae9;
+    border-radius: 7px;
+    box-shadow: 8px 6px 0px 2px rgba(70, 65, 92, 0.774);
+    overflow: visible;
+    margin-bottom: 0.6%;
+}
+.banner-text{
+    padding: 2%;
+    font-family: 'Lucida Sans';
+    color: white;
+}
+#banner-button{
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    transition: 500ms;
+}
+
+/* footer */
+#icons{
+    padding:3%;
+    cursor: pointer;
+    font-size: 30px;
+}
+#icons:hover{
+    color: orange;
+}
+.footer{
+    background-color:aliceblue;
+}
+.footer1{
+    text-align: center;
+    padding:1% ;
+    margin-top: 3%;
+    background-color: rgb(225, 241, 255);
+}
+
+
+/* shop page css starts here */
+.banner-button{
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    transition: 500ms;
+}
+.products{
+    background-color:#ffffff;
+    border-radius: 7px;
+    margin-bottom: 1%; 
+}
+.img-fluid2{
+    height: 230px;
+    width: 200px;
+}
+.banner-btn{
+    font-size: century;
+}
+/* shop page css ends here */
